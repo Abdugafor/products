@@ -83,7 +83,24 @@ body {
 }
 
 .right {
+    width: 300px;
     background-color: white;
     height: fit-content;
     padding: 30px;
+    border-radius: 20px;
+}
+
+.right h1 {
+    color: var(--red);
+}
+
+.order-info-container {
+    margin-top: 20px;
+}
+
+.icon {
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
 }
